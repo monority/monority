@@ -67,7 +67,7 @@
 ###
 
 <div align="center">
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=monority"/></a>
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=monority&theme=dark&hide_border=true" alt="GitHub Streak" /></a>
 </div>
 
 ###
