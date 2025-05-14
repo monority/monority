@@ -3,14 +3,14 @@
 </div>
 
 ###
-
 <div align="center">
-  <img src="https://img.shields.io/badge/Visit%20Portfolio-ronanchenu.vercel.app-4fd1c5?style=for-the-badge&logo=vercel&logoColor=black" />
+  <a href="https://ronanchenu.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-10F7CB?style=for-the-badge&logo=vercel&logoColor=black" />
+  </a>
   <a href="https://www.linkedin.com/in/ronanchenu/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </div>
-
 
 
 ###
