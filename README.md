@@ -1,14 +1,21 @@
 <div align="center">
-  <img height="120" src="https://www.cjoint.com/doc/23_07/MGeiZnzsbsL_logo.png"  />
+  <img src="./logo.svg" width="196" height="196" />
 </div>
 
 ###
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/ronanchenu/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+
+  <a href="https://ronanchenu.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Visit Portfolio-ronanchenu.vercel.app-4fd1c5?style=flat&logo=vercel&logoColor=black" />
   </a>
+
+  <a href="https://www.linkedin.com/in/ronanchenu/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
+  </a>
+
 </div>
+
 
 ###
 
