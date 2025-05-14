@@ -5,16 +5,12 @@
 ###
 
 <div align="center">
-
-  <a href="https://ronanchenu.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Visit Portfolio-ronanchenu.vercel.app-4fd1c5?style=flat&logo=vercel&logoColor=black" />
-  </a>
-
+  <img src="https://img.shields.io/badge/Visit%20Portfolio-ronanchenu.vercel.app-4fd1c5?style=for-the-badge&logo=vercel&logoColor=black" />
   <a href="https://www.linkedin.com/in/ronanchenu/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
+    <img src="https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-
 </div>
+
 
 
 ###
