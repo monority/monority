@@ -19,7 +19,7 @@
 
 ###
 
-<p align="left">I'm from France 😎 <br>Currently trained in Development 💻<br>Affinity with front-end ✅</p>
+<p align="left">I'm from France 😎 <br>Searching for work 💻<br>Affinity with front-end ✅<br>Trained in C# .NET and full stack web JavaScript 🎲</p>
 
 ###
 
