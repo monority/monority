@@ -30,18 +30,18 @@
 <table>
   <tr>
     <td>
-      <a href="https://github.com/monority/dashboard">
-        <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=monority&repo=dashboard&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="dashboard">
+      <a href="https://github.com/monority/dashboard-app-react">
+        <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=monority&repo=dashboard-app-react&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="dashboard">
       </a>
     </td>
     <td>
-      <a href="https://github.com/monority/shop_templatev2">
-        <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=monority&repo=shop_templatev2&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="shop_templatev2">
+      <a href="https://github.com/monority/horloge-app-react">
+        <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=monority&repo=horloge-app-react&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="horloge-app">
       </a>
     </td>
     <td>
-      <a href="https://github.com/monority/models">
-        <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=monority&repo=models&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="models">
+      <a href="https://github.com/monority/skyllswap-app-react">
+        <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=monority&repo=skillswap-app-react&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="skillswap">
       </a>
     </td>
   </tr>
