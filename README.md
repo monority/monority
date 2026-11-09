@@ -1,7 +1,4 @@
-Reworking..;
 
-<!-- cool-readme:start -->
-<!-- Cards by github-cool-readme: https://github.com/pedrocatalao/github-cool-readme -->
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/monority/monority/cards/summary-dark.svg">
@@ -22,4 +19,4 @@ Reworking..;
   <img src="https://raw.githubusercontent.com/monority/monority/cards/weekly-light.svg" width="400" alt="Weekly rhythm">
 </picture>
 </p>
-<!-- cool-readme:end -->
+
