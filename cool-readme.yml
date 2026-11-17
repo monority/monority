@@ -3,7 +3,21 @@ user: monority
 count:
   private: true
   orgs: true
+show: [about, summary, languages, weekly]
 look:
-  style: classic
-  color: github
-  background: none
+  style: dotmatrix
+  color: amber
+  background: 0d0b07
+cards:
+  summary:
+    ring: percent
+  about:
+    headline: "Hi, I'm *Ronan*"
+    lines:
+      - "Front-end developer in Lille."
+      - "React, Next.js, Node.js and TypeScript."
+      - "Game mods, Source maps, music and sport."
+    facts:
+      "Based in": "Lille, France"
+      "Focus": "Front-end"
+      "Open to": "CDI / Freelance"

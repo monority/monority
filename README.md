@@ -27,18 +27,18 @@
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/monority/monority/cards/summary-dark.svg">
-  <img src="https://raw.githubusercontent.com/monority/monority/cards/summary-light.svg" width="400" alt="GitHub stats">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/monority/monority/cards/about-dark.svg">
+  <img src="https://raw.githubusercontent.com/monority/monority/cards/about-light.svg" width="400" alt="About">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/monority/monority/cards/languages-dark.svg">
-  <img src="https://raw.githubusercontent.com/monority/monority/cards/languages-light.svg" width="400" alt="Most used languages">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/monority/monority/cards/summary-dark.svg">
+  <img src="https://raw.githubusercontent.com/monority/monority/cards/summary-light.svg" width="400" alt="GitHub stats">
 </picture>
 </p>
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/monority/monority/cards/contributions-dark.svg">
-  <img src="https://raw.githubusercontent.com/monority/monority/cards/contributions-light.svg" width="400" alt="Notable contributions">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/monority/monority/cards/languages-dark.svg">
+  <img src="https://raw.githubusercontent.com/monority/monority/cards/languages-light.svg" width="400" alt="Most used languages">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/monority/monority/cards/weekly-dark.svg">
