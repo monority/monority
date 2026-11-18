@@ -9,6 +9,10 @@ look:
   color: amber
   background: 0d0b07
 cards:
+  languages:
+    layout: list
+    hide: [HTML, CSS]
+    count: 6
   summary:
     ring: percent
   about:
