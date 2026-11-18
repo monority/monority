@@ -12,23 +12,9 @@ jobs:
         env:
           TOKEN: ${{ secrets.CARDS_TOKEN }}
         run: |
-          set -euo pipefail
-          q='{"query":"query{viewer{login createdAt hasAnyRestrictedContributions organizations(first:20){totalCount} contributionsCollection{restrictedContributionsCount contributionCalendar{totalContributions} totalCommitContributions totalPullRequestContributions totalPullRequestReviewContributions totalIssueContributions commitContributionsByRepository(maxRepositories:100){contributions{totalCount}}}}}"}'
-          curl -sS -X POST https://api.github.com/graphql \
-            -H "Authorization: bearer $TOKEN" \
-            -H 'Content-Type: application/json' \
-            --data "$q" > out.json
-          jq -r '.data.viewer | {
-            login,
-            createdAt,
-            orgs: .organizations.totalCount,
-            restricted: .contributionsCollection.restrictedContributionsCount,
-            calendarTotal: .contributionsCollection.contributionCalendar.totalContributions,
-            commits: .contributionsCollection.totalCommitContributions,
-            prs: .contributionsCollection.totalPullRequestContributions,
-            reviews: .contributionsCollection.totalPullRequestReviewContributions,
-            issues: .contributionsCollection.totalIssueContributions,
-            reposWithCommits: (.contributionsCollection.commitContributionsByRepository | length),
-            commitsSumByRepo: ([.contributionsCollection.commitContributionsByRepository[].contributions.totalCount] | add)
-          }' out.json
-          jq -r '.errors // empty' out.json
+          q='{"query":"query{viewer{login createdAt organizations(first:20){totalCount} contributionsCollection{restrictedContributionsCount contributionCalendar{totalContributions} totalCommitContributions totalPullRequestContributions totalPullRequestReviewContributions totalIssueContributions commitContributionsByRepository(maxRepositories:100){contributions{totalCount}}}}}"}'
+          curl -sS -X POST https://api.github.com/graphql -H "Authorization: bearer $TOKEN" -H 'Content-Type: application/json' --data "$q" > out.json
+          jq -r '.errors' out.json
+          jq -r '.data.viewer | {login, createdAt, orgs: .organizations.totalCount}' out.json
+          jq -r '.data.viewer.contributionsCollection | {restricted: .restrictedContributionsCount, calendarTotal: .contributionCalendar.totalContributions, commits: .totalCommitContributions, prs: .totalPullRequestContributions, reviews: .totalPullRequestReviewContributions, issues: .totalIssueContributions}' out.json
+          jq -r '[.data.viewer.contributionsCollection.commitContributionsByRepository[]?.contributions.totalCount] | {repos: length, commitsSumByRepo: add}' out.json
