@@ -45,3 +45,11 @@
   <img src="https://raw.githubusercontent.com/monority/monority/cards/weekly-light.svg" width="400" alt="Weekly rhythm">
 </picture>
 </p>
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/monority-mark--on-dark.svg">
+  <img src="./assets/monority-mark--on-light.svg" width="120" alt="Monority">
+</picture>
+</p>
+
