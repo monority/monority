@@ -25,13 +25,14 @@
 
 ---
 
-<h1 align="center">
+<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 16px;">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/monority-mark--on-dark.svg">
-    <img src="./assets/monority-mark--on-light.svg" width="72" alt="Logo Monority" align="middle">
+    <img src="./assets/monority-mark--on-light.svg" width="96" alt="Logo Monority">
   </picture>
-  MONORITY
-</h1>
+  <span style="font-size: 3rem; font-weight: 700;">MONORITY</span>
+</div>
+
 
 <p align="center">
 <picture>
