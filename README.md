@@ -24,6 +24,19 @@
 </p>
 
 ---
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./assets/monority-mark--on-dark.svg">
+        <img src="./assets/monority-mark--on-light.svg" width="72" alt="Logo Monority">
+      </picture>
+    </td>
+    <td valign="middle"><font size="7"><b>MONORITY</b></font></td>
+  </tr>
+</table>
+</table>
+
 
 <p align="center">
 <picture>
@@ -43,13 +56,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/monority/monority/cards/weekly-dark.svg">
   <img src="https://raw.githubusercontent.com/monority/monority/cards/weekly-light.svg" width="400" alt="Weekly rhythm">
-</picture>
-</p>
-
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/monority-mark--on-dark.svg">
-  <img src="./assets/monority-mark--on-light.svg" width="120" alt="Monority">
 </picture>
 </p>
 
