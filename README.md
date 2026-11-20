@@ -25,7 +25,14 @@
 
 ---
 
-<h1 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/monority-mark--on-dark.svg"><img src="./assets/monority-mark--on-light.svg" width="36" alt="Logo Monority" align="center"></picture>&nbsp;MONORITY</h1>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/monority-mark--on-dark.svg">
+    <img src="./assets/monority-mark--on-light.svg" width="80" alt="Logo Monority">
+  </picture>
+  <br>
+  <strong>MONORITY</strong>
+</p>
 
 
 <p align="center">
